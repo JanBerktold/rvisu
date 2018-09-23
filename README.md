@@ -8,7 +8,7 @@ Given the addresses of two redis sentinels, this finds all associated redis node
 ```
 rvisu -addr=10.121.201.240:26379,10.121.201.242:26379 | dot -Tpng > graph.png
 ```
-![alt text](https://github.com/JanBerktold/README.md/raw/master/examples/graph.png)
+![Example output](/examples/graph.png)
 
 ## Supported output formats
 
