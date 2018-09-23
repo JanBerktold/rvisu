@@ -13,6 +13,6 @@ rvisu -addr=10.121.201.240:26379,10.121.201.242:26379 | dot -Tpng > graph.png
 ## Supported output formats
 
 | Format                      | Description                                              |
-| -------------               | -------------:                                           |
+| -------------               | -------------                                            |
 | -output=graphviz (default)  | https://www.graphviz.org Suitable for use by most tools. |
 | -output=debug               | A debug format representing the internal structure.      |
